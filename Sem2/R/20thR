@@ -1,0 +1,1 @@
+append(<name of the vector>, <value to be inserted>, <position after which the value has to be inserted>)

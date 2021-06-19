@@ -1,0 +1,49 @@
+---
+  Name: Eshaan Joshi
+  Location: Mumbai
+  Age: 18
+  Status: Complete Psycho
+---
+# This document has been created by Eshaan Joshi
+## Eshaan created this while learning R to the students
+### This is only for the demonstration purpose
+
+## He is fond of technology
+
+## He is learning these programming languages
+- Python
+- R
+- Golang
+- C++
+- Java
+- Julia
+
+1. Python
+    - Data Science
+2. R
+3. Golang
+4. C++
+5. JAVA
+6. Julia
+
+# My current favourite programming is **_Python_**
+The formula for water is H~2~O
+The formula for area of circle is pie * r ^2^
+to display anything to the user we use the print function example: `print('hello')`
+
+```{r echo = FALSE, eval = TRUE, warning = FALSE}
+  print('Hello')
+```
+
+```{r eval = TRUE, echo = TRUE}
+print(subset(mtcars, mtcars$mpg>20))
+```
+
+The package mtcars that I worked with is originally having `r nrow(mtcars)` rows
+
+
+```{r eval = TRUE, echo = FALSE}
+sys.source('May6.R')
+print(stu_db$stu_names)
+```
+

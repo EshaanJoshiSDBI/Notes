@@ -1,0 +1,6 @@
+Name Deptt Salary
+Sudeep Quality 23000
+Eshaan Production 35000
+Ishika Sales 27000
+Aditi null 30000
+Sachin Sales 12434

@@ -1,0 +1,14 @@
+getwd() - current working directory
+setwd() - change the working directory
+library(package_name) - load the package
+Mathematical operations
+Variables in R - datatypes
+Input for string and numerical value from user
+logical operations
+vectors
+matrix
+dataframe
+list
+array
+conditional statements
+sbhargava01@gmail.com
