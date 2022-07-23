@@ -1,6 +1,6 @@
 - linear regression
-- cost function of OLS
-- Challenges of OLS
+- cost function of Linear Regression
+- Challenges of Linear Regression
 - Types of errors
 - What is bias
 - What is variance
@@ -14,7 +14,7 @@
 - Types of regularization
 - Working of lasso regression
 - Working of Ridge regression
-- Cost function of OLS
-- Cost function of Lasso
-- Cost function of Ridge
-- Cost function of Elastic Net
+- Cost function of Linear Regression
+- Cost function of Lasso Regression
+- Cost function of Ridge Regression
+- Cost function of Elastic Net Regression
