@@ -87,8 +87,8 @@
 			* When we cannot drop any feature.
 			
 ### Cost function of Lasso regression
-![ScreenShot](Screenshot from 2022-08-09 20-31-18.png)
+<img src="Screenshot from 2022-08-09 20-31-18.png"/>
 ### Cost function of Ridge regression
-![ScreenShot](Screenshot from 2022-08-09 20-32-05.png)
+<img src="Screenshot from 2022-08-09 20-32-05.png"/>
 ### Cost function of Elastic net regularization
-![ScreenShot](Screenshot from 2022-08-09 20-30-49.png)
+<img src="Screenshot from 2022-08-09 20-30-49.png"/>
