@@ -23,7 +23,7 @@
 |Graph store|Store nodes and arcs of a graph|Social network queries, friend-of-friend queries, rules systems, pattern matching|Neo4j, Giraffe, AllegroGraph|
 |Columnar store|Store sparse matrix data using a row and a column as the key|Web crawling, systems with high variance, high-adaptable systems|BigTable, HBase, Cassandra|
 |Document store|Store tree-structured hierarchical information in a single unit|Office documents, sales orders, invoices, forms / web pages, document exchange and search|MongoDB, Couchbase, Berkeley DB XML|
-### What is the significance of key-value data store
+### What is the significance of key-value data store.Explain its operations with example
 - A key-value store is a simple database that when presented with a simple string (key) returns an arbitrary large BLOB of data (value).
 - It is like a dictionary.
 - The benefit of storing the values as BLOB is that we can store any data type we want, as the system will store the value as BLOB and returns the BLOB when a GET request is made.
@@ -34,6 +34,10 @@
 	+ SQL queries
 - It allows programs or users of programs to retrieve data by keys.
 	+ Retrieving a value, Deleting a value, updating values simply using the associated key
+- Instead of using a query language, application developers access and manipulate a key-value store with the `put`, `get` and `delete` functions.
+	+ `put($key as xs:string, $value as item())` adds a new key-value pair to the table and will update a value if the key is already present.
+	+ `get($key as xs:string) as item()` returns the value for any given key, or it may return an error message if there's no key in the key-value store.
+	+ `delete($key as xs:string)` removes a key and its value from the table, or it may return an error message if there's no key in the key-value store.
 ### Compare between document-store, columnar store and key-value store databases
 |Document stores|Key-Value stores|Columnar stores|Graph stores|
 |:-------------:|:--------------:|:-------------:|:----------:|
