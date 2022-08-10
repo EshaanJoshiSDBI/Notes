@@ -71,7 +71,7 @@
 - We tune the function by adding an additional penalty term in the error function.
 - Types of regularization:
 	+ Lasso regression
-		- We add "absolute value of magnitude" of coefficient as penalty term to the loss function (L).![](../Pictures/Screenshots/Screenshot from 2022-08-09 20-19-56.png)
+		- We add "absolute value of magnitude" of coefficient as penalty term to the loss function (L).<img src="Screenshot from 2022-08-09 20-19-56.png"/>
 		+ λ denotes the amount of shrinkage
 		+ λ = 0 implies all features are considered
 		+ λ = ∞ implies no features are considered
@@ -81,10 +81,12 @@
 			* If the dataset has high dimensionality and high correlation we can use lasso regression.
 			* When we are okay with dropping some features.
 	- Ridge regression
-		+ We add squared magnitude of coefficient as penalty term to the loss function (L).![](../Pictures/Screenshots/Screenshot from 2022-08-09 20-27-32.png)
+		+ We add squared magnitude of coefficient as penalty term to the loss function (L).<img src="Screenshot from 2022-08-09 20-27-32.png"/>
 		+ When to use ridge:
 			* If we have more parameters than samples then we can use ridge regression.
 			* When we cannot drop any feature.
+	* Elastic net
+		* It emerged as a result of critique on lasso, whose variable selection can be too dependent on data and thus unstable. The solution was to to combine the penalties of ridge regression and lasso regression.
 			
 ### Cost function of Lasso regression
 <img src="Screenshot from 2022-08-09 20-31-18.png"/>
