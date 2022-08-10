@@ -115,11 +115,11 @@ A document database stores data in JSON, BSON or XML documents.|Data is stored a
 - Sharding makes the database smaller, faster and reduces the transaction cost of the database.
 - Example:
 	+ The full table looks like:
-	- ![](Screenshot from 2022-08-10 21-12-22.png)
+	- <img src="Screenshot from 2022-08-10 21-12-22.png"/>
 	+ After sharding one shard looks like:
-	+ ![](Screenshot from 2022-08-10 21-13-44.png)
+	+ <img src="Screenshot from 2022-08-10 21-13-44.png"/>
 	+ And the second shard looks like:
-	+ ![](Screenshot from 2022-08-10 21-14-43.png)
+	+ <img src="Screenshot from 2022-08-10 21-14-43.png"/>
 - Common methods of sharding
 	+ Range sharding
 		* examines the values of the sharding key and determines what range it falls into. Each key is directly mapped to a different shard.
@@ -164,7 +164,7 @@ A document database stores data in JSON, BSON or XML documents.|Data is stored a
 - While a typical relational system would convert the SQL query to relational algebra and run optimization algorithms, dynamodb skips both processes. The query arrives at the request router, the system hashes the request's partition key to arrive in the appropriate partition. There are three nodes within, each with a copy of the partition's data. The system first writes to the leader node, then writes to a second node then sends a success message and finally continues propagating to the third node. Writes are consistent because they always travel first through the leader node.
 ### Enlist and contrast key architectural characteristics of DynamoDB.
 - DynamoDB runs on a fleet of AWS managed servers that leverage solid state drives (SSDs) to create an optimized, high-density storage platform. This platform decouples performance from table size and eliminates the need for the working set of data to fit in memory while still returning consistent, low latency responses to queries. As a managed service, DynamoDB abstracts its underlying architectural details from the user.
-- ![](Screenshot from 2022-08-10 23-20-12.png)
+- <img src="Screenshot from 2022-08-10 23-20-12.png"/>
 - Dynamo stores objects associated with a key through a simple interface, it exposes two operations `get()` and `put()`.
 - Dynamo scales incrementally. This requires a mechanism to dynamically partition the data over the set of nodes. The partioning scheme relies on consistent hashing to distribute the load across multiple storage hosts.
 - To achieve high availability and durability, dynamo replicates its data on multiple hosts. Each data item is replicated at *N* hosts, where *N* is a parameter configured per instance.
