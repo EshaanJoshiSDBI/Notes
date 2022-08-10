@@ -10,7 +10,7 @@
 	+ No multicollinearity
 	+ No auto-correlation
 	+ Homoscedasticity
-- The cost function of linear regression is **Mean Squared Error** (MSE)
+- The cost function of linear regression is **Mean Squared Error** (MSE)<img src="https://www.gstatic.com/education/formulas2/443397389/en/mean_squared_error.svg" />
 - Challenges with Linear regression:
 	+ Non-linearity of the response-predictor relationships: It occurs due to the assumportion for linearity, if the actual relation is not linear then accuracy drops significantly and any conclusions become null & void.
 	+ Correlation of error terms: May occur due to the assumption that the error terms are uncorrelated, there might be correlation among error terms eg: correlation in error due  to the diet followed, exercise routing, etc when observing height and weight. If the error terms are correlate then the standard error in the model coefficients gets underestimated.
@@ -71,7 +71,7 @@
 - We tune the function by adding an additional penalty term in the error function.
 - Types of regularization:
 	+ Lasso regression
-		- We add "absolute value of magnitude" of coefficient as penalty term to the loss function (L).![](../Pictures/Screenshots/Screenshot from 2022-08-09 20-19-56.png)
+		- We add "absolute value of magnitude" of coefficient as penalty term to the loss function (L).<img src="Screenshot from 2022-08-09 20-19-56.png"/>
 		+ λ denotes the amount of shrinkage
 		+ λ = 0 implies all features are considered
 		+ λ = ∞ implies no features are considered
@@ -81,14 +81,22 @@
 			* If the dataset has high dimensionality and high correlation we can use lasso regression.
 			* When we are okay with dropping some features.
 	- Ridge regression
-		+ We add squared magnitude of coefficient as penalty term to the loss function (L).![](../Pictures/Screenshots/Screenshot from 2022-08-09 20-27-32.png)
+		+ We add squared magnitude of coefficient as penalty term to the loss function (L).<img src="Screenshot from 2022-08-09 20-27-32.png"/>
 		+ When to use ridge:
 			* If we have more parameters than samples then we can use ridge regression.
 			* When we cannot drop any feature.
+	* Elastic net
+		* It emerged as a result of critique on lasso, whose variable selection can be too dependent on data and thus unstable. The solution was to to combine the penalties of ridge regression and lasso regression.
 			
 ### Cost function of Lasso regression
-![](../Pictures/Screenshots/Screenshot from 2022-08-09 20-31-18.png)
+<img src="Screenshot from 2022-08-09 20-31-18.png"/>
 ### Cost function of Ridge regression
-![](../Pictures/Screenshots/Screenshot from 2022-08-09 20-32-05.png)
+<img src="Screenshot from 2022-08-09 20-32-05.png"/>
 ### Cost function of Elastic net regularization
-![](../Pictures/Screenshots/Screenshot from 2022-08-09 20-30-49.png)
+<img src="Screenshot from 2022-08-09 20-30-49.png"/>
+
+- loss = sum i=0 to n (y_i – yhat_i)^2
+- l2_penalty = sum j=0 to p beta_j^2
+- l1_penalty = sum j=0 to p abs(beta_j)
+- elastic_net_penalty = (alpha * l1_penalty) + ((1 – alpha) * l2_penalty)
+- elastic_net_loss = loss + (lambda * elastic_net_penalty)
