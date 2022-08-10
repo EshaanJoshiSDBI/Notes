@@ -94,8 +94,9 @@
 <img src="Screenshot from 2022-08-09 20-32-05.png"/>
 ### Cost function of Elastic net regularization
 <img src="Screenshot from 2022-08-09 20-30-49.png"/>
-loss = sum i=0 to n (y_i – yhat_i)^2
-l2_penalty = sum j=0 to p beta_j^2
-l1_penalty = sum j=0 to p abs(beta_j)
-elastic_net_penalty = (alpha * l1_penalty) + ((1 – alpha) * l2_penalty)
-elastic_net_loss = loss + (lambda * elastic_net_penalty)
+
+- loss = sum i=0 to n (y_i – yhat_i)^2
+- l2_penalty = sum j=0 to p beta_j^2
+- l1_penalty = sum j=0 to p abs(beta_j)
+- elastic_net_penalty = (alpha * l1_penalty) + ((1 – alpha) * l2_penalty)
+- elastic_net_loss = loss + (lambda * elastic_net_penalty)
