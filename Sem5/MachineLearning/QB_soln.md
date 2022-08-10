@@ -10,7 +10,7 @@
 	+ No multicollinearity
 	+ No auto-correlation
 	+ Homoscedasticity
-- The cost function of linear regression is **Mean Squared Error** (MSE)
+- The cost function of linear regression is **Mean Squared Error** (MSE)<img src="https://www.gstatic.com/education/formulas2/443397389/en/mean_squared_error.svg" />
 - Challenges with Linear regression:
 	+ Non-linearity of the response-predictor relationships: It occurs due to the assumportion for linearity, if the actual relation is not linear then accuracy drops significantly and any conclusions become null & void.
 	+ Correlation of error terms: May occur due to the assumption that the error terms are uncorrelated, there might be correlation among error terms eg: correlation in error due  to the diet followed, exercise routing, etc when observing height and weight. If the error terms are correlate then the standard error in the model coefficients gets underestimated.
@@ -94,3 +94,8 @@
 <img src="Screenshot from 2022-08-09 20-32-05.png"/>
 ### Cost function of Elastic net regularization
 <img src="Screenshot from 2022-08-09 20-30-49.png"/>
+loss = sum i=0 to n (y_i – yhat_i)^2
+l2_penalty = sum j=0 to p beta_j^2
+l1_penalty = sum j=0 to p abs(beta_j)
+elastic_net_penalty = (alpha * l1_penalty) + ((1 – alpha) * l2_penalty)
+elastic_net_loss = loss + (lambda * elastic_net_penalty)
