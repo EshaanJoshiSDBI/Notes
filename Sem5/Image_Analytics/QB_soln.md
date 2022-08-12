@@ -127,3 +127,41 @@ img.crop((100,100,200,200))
 * Wavelet image processing
 * Harris corner detection
 * Morphological image processing
+
+---
+## Neural networks
+- Neural networks reflect the behavoir of the human brain, allowing computer programs to recognize patterns and solve common problems in the fields of AI, machine learning and deep learning.
+- ANNs are compromised of a node layers, containing an input layer, one or more hidden layers and an output layer. Each node connects to another and has an associated weight and threshold.
+- If the output of any individual node is above the specified threshold value, that node is activated, sending data to the next layer of the network.
+- Neural networks can be of 3 types:
+	+ CNN
+		* Similar to feedforward networks but they're usually utilized for image recognition, pattern recognition or computer vision. These networks harness principles from linear algebra, particularly matrix multiplication to identify patterns within an image.
+	+ RNN
+		* Identified by their feedback loops. These learning algorithms are primarily leveraged when using time-series data to make predictions about future outcomes, such as stock market predictions or sales forecasting.
+	+ Feedforward neural networks
+		* Comprised of an input layer, hidden layer(s) and an output layer. Also commonly reffered to as MLPs. They comprise of sigmoid neurons, not perceptrons.
+		
+
+### Terminology
+- Sequential: ML models that input or output data sequences.
+- normalize: processes the data to obtain mean close to 0
+- Epochs: Each time we train our model with every data example we have, we complete an “epoch”. Models are typically trained for tens to hundreds of epochs until their losses are reduced to tiny values.
+- Loss Function: The loss, or error, is a function that measures the “wrongness” of the model.
+- Dense Layer (revisited): If an input is fed to many perceptrons at once, we can simplify the math by “joining” the weights of each perceptron as a matrix, creating the dense layer: D(x; W) = a(x ⋅ W).
+- The perceptron is a weighted sum followed by an activation function. Formally, P(x; w) = a(x ⋅ w).
+- Activation Function: These are ordinary non-linear functions used in DL that have the sole purpose of receiving input and making it non-linear.
+- Flatten: Converts 2D arrays into a continuous long array
+- Feed forward: Flow of info in forward direction
+- Back propogation: Weights of network connections are repeated by adjusted to minimize the difference actual and predicted output
+
+### Loss function
+- Mean squared error
+- Binary crossentropy
+- Categorical crossentropy
+- Spars categorical crossentropy
+
+### Metrics
+- Accuracy metrics
+- Probablistic metrics
+- Regression metrics
+- Image segmentation metrics
