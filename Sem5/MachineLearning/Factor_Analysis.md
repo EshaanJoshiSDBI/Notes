@@ -71,8 +71,10 @@ KMO returns values between 0 and 1. A rule of thumb for interpreting it is:
 |0.7 to 0.79|Middling|
 |0.8 to 0.89|Meritorious|
 |0.9 to 1|Marvellous|
+
 The formula for KMO test is:
-<img src="Kmo.png" />
+<img src="kmo.png" />
+
 Where:
 - R = [r<sub>ij</sub>] is the correlation matrix
 - U = [u<sub>ij</sub>] is the partial covariance matrix
