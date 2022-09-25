@@ -1,0 +1,41 @@
+- Indexes are the fastest way to find information.
+- By default `_id` key is our index.
+- Shard key is common in queries for collection. Once defined we can't change it for that particular collection
+- Sharding process has 3 main pillars
+	+ Config file
+	+ Mongosh
+	+ MongoD instances
+- mongoose are the client connects, MongoD are the services, data stores, etc.
+---
+# Question Bank
+>Draw diagrams, give examples, write queries
+1. CAP theorem with diagram
+2. SSDs (logical answers)
+3. Explain JSON (write with examples)
+4. Features of JSON (write with examples)
+5. JSON grammar (write with examples)
+6. Indexes in MongoDB
+7. CRUD operations
+8. Journaling
+9. ReadFS
+10. Storage engine
+11. Aggregation queries
+12. Sorting queries
+13. Aggregation pipeline
+12. Capped collections
+13. Distinguish between NoSQL and SQL
+14. Distinguish between ACID and BASE properties
+14. Limitations of SQL
+15. Limitations of NoSQL
+16. Advantages of SQL
+17. Advantages of NoSQL
+18. Big data
+19. Challenges of big data
+20. Characteristics of Big data
+21. Three Vs of big data
+22. Significance of _id_
+23. Features of MongoDB
+24. Use cases of Big data
+---
+# Practicals Question bank
+- 
