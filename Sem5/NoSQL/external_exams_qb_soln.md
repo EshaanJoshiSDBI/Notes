@@ -223,3 +223,54 @@ db.createCollection( "log", { capped: true, size: 100000 } )
 - Document stores don't provide fine-grained security at the element level.
 - No standardization
 - Lack of cross-platform support
+
+17. Advantages of SQL
+- Faster query processing
+- No coding needed as standard SQL makes it very easy to manage the database.
+- SQL code is portable to other SQL databases.
+18. Advantages of NoSQL
+- Availability of drag-and-drop tools.
+- Modular architecture allows components to be exchanged.
+- Supports vertical and horizontal scaling
+- No need for an object-relational mapping layer.
+- Easy to store high-variability data.
+
+19. What is big data?
+- Big data is data that contains greater variety, arriving in increasing volumes and with more velocity.
+- Big data is larger, more complex and so voluminous that traditional data processing software just can't manage them.
+- Four Vs of big data:
+	+ Volume: Data is collected from a variety of sources, low-density, unstructured data.
+	+ Velocity: Data streams into businesses at an unprecendented speed and must be handled in a timely manner.
+	+ Variety: Different types of formats data can come in. Structured like numeric data, unstructured data like videos, audio, etc and semi-structured data like CSV, JSON files.
+	+ Veracity: Refers to the quality of data. We need to connect and correlate relationships, hierarchies and multiple data linkages.
+- Characteristics of big data:
+	+ Volatility: Big data is in continuous change.
+	+ Veracity: accuracy of the data.
+	+ Value: Useful information we can retrieve from the data.
+	+ Velocity: The rate at which data is generated
+	+ Variety: Different types of data.
+	+ Volume: Huge amount of data that is collected and generated.
+- Steps in big data analytics:
+	+ Ingestion: Data is gathered as well as processed.
+	+ Storage: Data is stored mainly in data warehouse or data lake.
+	+ Analysis: The big data is processed to abstract valuable insights.
+	+ Consumption: Insights are shared with non-technical audiences in the form of visualization.
+- Challenges:
+	+ Growth issues: Storing all these huge sets of data properly is a huge issue. A lot of the data is unstructured.
+	+ Securing data: Securing these huge data sets is important to protect it from malicious hackers.
+	+ Integrating data from various sources: Combining all types of data to prepare reports is a challenging task.
+	+ Sharing and accessing data: Inaccessibility of data sets from external sources is a frequent challenge. Due to huge volumes of data sharing isn't easy.
+
+22. Significance of `_id`
+- `_id` is the primary key on documents in a collection, with it documents can be differentiated from each one another.
+- `_id` is automatically indexed.
+- By default the `_id` field is of type ObjectID. Users can also override `_id` to something other than an ObjectID.
+
+23. Features of MongoDB
+- Ad-hoc queries for optimized, real-time analytics: Ad-hoc query is a short-lived command whose value depends on a variable. MongoDB supports field queries, range queries and regular expression searches.
+- Indexing appropriately for better query executions: MongoDB offers a broad range of indices and features with language-specific sort orders that support complex access patterns to datasets. MongoDB indices can be created on demand to accomodate real-time and application requiremens. They can also be declared on any field within any of your documents, including those nested within arrays.
+- Replication for better data availability and stability: Replication helps in achieving fault tolerance, by deploying multiple servers for disaster recovery and backup. Horizontal scaling across multiple servers helps with load balancing, data availability and stability.
+- Sharding: It is the process of splitting larger datasets across multiple distributed collections, which helps the database distribute and better execute what might otherwise be problematic.
+- Authentication: A critical security feature in MongoDB. It ensures that only authorized users can access the database.
+- Database triggers: It allows the execution of code when certain events occur in our database.
+- Time series data: Time series collections in MongoDB are designed to be storage-efficient and perform well with sequences of measurements.
