@@ -41,7 +41,7 @@
 ### What happens when our model is too complex
 - The model can end up overfitting.
 ### What happens when variance increases
-- The chances of inaccurate predictions increases. High variance causes underfitting in the ML model.
+- The chances of inaccurate predictions increases. High variance causes overfitting in the ML model.
 ### What are the ways to increase bias and reduce variance in our model
 - We can use regularization to add a small bias to our model which helps reducing the variance.
 - The commonly used regularization techniques are:
