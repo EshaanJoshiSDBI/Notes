@@ -268,4 +268,4 @@ model.compiile(loss=mean_squared_error, optimizer='sgd')
 - It is the process in image processing that changes the range of pixel intensity values.
 - Normalization helps get data within a range and reduces the skewness, it also tackles the diminishing and exploding gradients problems.
 - To normalize the pixel values between 0 and 1: `img /= 255.0`
-- In keras `layer = tf.keras.layers.Normalization()`. The layer will shift and scale inputs into a distribution centered around 0 with standard deviation. Calls `(input - mean) / sqrt(var)` at runtime.
+- In keras `layer = tf.keras.layers.Normalization()`. The layer will shift and scale inputs into a distribution centered around 0 with standard deviation to 1. Calls `(input - mean) / sqrt(var)` at runtime.
