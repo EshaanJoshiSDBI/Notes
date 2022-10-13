@@ -1,0 +1,18 @@
+create db
+create collection
+find
+sort
+count
+ne
+lt
+lte
+gt
+gte
+in
+nin
+update | rename, inc, unset
+and
+or
+remove
+group
+distinct
