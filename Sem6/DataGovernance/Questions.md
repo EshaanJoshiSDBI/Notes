@@ -10,4 +10,7 @@
 ---
 
 1. Explain different types of networks
+2. Explain what is network topology and state different types of topologies.
+3. Explain in detail each type of network topology.
+4. Explain different network devices.
 
