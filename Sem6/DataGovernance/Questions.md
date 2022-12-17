@@ -6,6 +6,12 @@
     1. Non repudiation
     2. Access control
     3. Authentication
+6. Write a short note on Hashing, explain with example.
+7. What is Access Control?
+8. Different types of Access control models.
+9. Biometrics options for access controls.
+10. What is vulnerability and threats.
+11. Write a short note on vulnerability / What are the types of vulnerability.
 
 ---
 
@@ -13,4 +19,3 @@
 2. Explain what is network topology and state different types of topologies.
 3. Explain in detail each type of network topology.
 4. Explain different network devices.
-
