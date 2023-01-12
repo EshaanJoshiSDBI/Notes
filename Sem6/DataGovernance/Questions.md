@@ -12,7 +12,10 @@
 9. Biometrics options for access controls.
 10. What is vulnerability and threats.
 11. Write a short note on vulnerability / What are the types of vulnerability.
-
+12. What are different types of malware. Explain any 2.
+---
+13. What are user account security policy
+14. What are the best practices to be followed while patching a software.
 ---
 
 1. Explain different types of networks

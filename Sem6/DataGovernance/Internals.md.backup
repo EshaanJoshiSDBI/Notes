@@ -226,7 +226,7 @@
 		* Block ciphers: Plain text breaks down into fixed-length groups of bits known as blocks. Each block then gets encrypted as a unit, which makes this process a bit slow.
 		* Stream ciphers: It encrypts plaintext data one bit at a time. The data gets processed in a stream rather than in chunks like in block ciphers. This makes the process less resource intensive and faster to achieve.
 		* Algorithms
-			- Data Encryption Standard: Maps inputs of a specific length to outputs of a specific -
+			- Data Encryption Standard: Maps inputs of a specific length to outputs of a specific 
 	+ Assymetric
 - Decryption is the process of converting an encrypted message back to its original format. The original message is called the plaintext message.
 
