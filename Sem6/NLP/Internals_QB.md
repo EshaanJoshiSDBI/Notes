@@ -205,3 +205,11 @@ Platforms such as e-commerce, news agencies, blogs, etc can use automated techno
 	- Text classification can be used for automating ticket routing and traiging. It allows you to automatically route support tickets to a teammate with specific product experties, if a customer writes asking about refunds, it can automatically assign the ticket to a teammate with permission to perform refunds.
 	- It can also automatically detect the urgency of a support ticket and prioritize them.
 	- It can help lower customer churn.
+
+### Gibbs Sampling
+- Gibbs sampling is a Markov chain Monte Carlo, which simulates a high-dimensional distribution by sampling on a lower-dimensional subset of variables where each subset is conditioned on the value of all others.
+- It has two assumptions:
+	- Each article is as monochromatic as possible
+	- Each word is as monochromatic as possible
+- Gibbs sampling considers each word token in turn and estimates the probability of assigning the current word token to each topic, conditioned on the topic assignment to all other word tokens.
+- From this conditional distribution, a topic is sampled and stored as the new topic assignment for this word token.
