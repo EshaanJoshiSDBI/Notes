@@ -184,8 +184,24 @@ plt.show()
 - They are a powerful way to visualise what our audience really thinks about a topic.
 - It reveals the essentials. Delights and provides emotional connection. They're fast and engaging as poring over text to develop themes from research takes time and it may stimulate more questions, which often is a good entry point to discussion.
 
----------
-### Semi structured
-### Different types of lemmatizers
-### Applications of text mining
-### Text mining
+### Applications of Text Classification
+Applications of Text classification
+- Detecting urgent issues
+	- A fast emergency response system can be made by classifying panic conversation on social media.
+	- Authorities can monitor and classify emergency situation to make a quick response if any such situation arises.
+	- With the help of text classification, businesses can make sense of large amounts of data techniques like aspect-based sentiment analysis to understand what people are talking about.
+	- Example, Customer's about to churn, complaints about a bug issue, downtime
+- Tagging content
+	- Products can be tagged using categories as a way to improve browsing or to identify related content.
+Platforms such as e-commerce, news agencies, blogs, etc can use automated technologies to classify and tag content / products.
+- Spam filtering
+	- Using previously categorized spam mails to identify patterns, helps detect spam that rule-based approach may not detect.
+- Sentiment Analysis
+	- Using previously tagged data to train, models can decipher the overall sentiment of data (posts, reviews, etc.) and predict final sentiment.
+	- It helps us to understand whether the social perception is positive, negative or neutral towards a product or features.
+	- Sentiment analysis on competitor's social post can be used to obtain a benchmark.
+- Automating CRM and Customer Support processes.
+	- The CRM tasks can directly be assigned and analyzed based on importance and relevance. It reduces manual work and thus is high time efficient.
+	- Text classification can be used for automating ticket routing and traiging. It allows you to automatically route support tickets to a teammate with specific product experties, if a customer writes asking about refunds, it can automatically assign the ticket to a teammate with permission to perform refunds.
+	- It can also automatically detect the urgency of a support ticket and prioritize them.
+	- It can help lower customer churn.
