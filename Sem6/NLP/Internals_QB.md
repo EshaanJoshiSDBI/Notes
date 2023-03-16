@@ -211,5 +211,6 @@ Platforms such as e-commerce, news agencies, blogs, etc can use automated techno
 - It has two assumptions:
 	- Each article is as monochromatic as possible
 	- Each word is as monochromatic as possible
+- Gibbs sampling makes it easy to evaluate the conditional distribution.
 - Gibbs sampling considers each word token in turn and estimates the probability of assigning the current word token to each topic, conditioned on the topic assignment to all other word tokens.
 - From this conditional distribution, a topic is sampled and stored as the new topic assignment for this word token.
